@@ -12,7 +12,7 @@ func (e *ErrorCode) Error() string {
 }
 
 // ====================== 错误定义（全局变量） ======================
-// 通用错误（1xxxx）
+// 通用错误（1xxxx）:
 var (
 	Success = &ErrorCode{
 		Code:       0,
